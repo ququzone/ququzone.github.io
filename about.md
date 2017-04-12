@@ -8,7 +8,7 @@ A simple programmer!
 
 ### More Information
 
-Java Golang Linux Node.js Scala BigData, Thats all.
+Java Golang Linux Node.js Docker Kubernetes BigData, Thats all.
 
 ### Contact me
 
