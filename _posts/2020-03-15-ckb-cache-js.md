@@ -5,7 +5,7 @@ title: ckb-cache-js 可嵌入的Live Cell Cache库
 
 由于Nervos CKB的Cell模式是类似UTXO的模型，那么在组装交易时需要明确Inputs的输入，这样不管是开发钱包、dApp Server还是其他任何需要和CKB交互的应用场景，都需要一个查询live cells的功能。尽管CKB RPC已经提供了基于LockHash查询live cells的功能，这个这个功能是通用型的功能，并且只能根据LockHash查询，在很多dApp场景中无法适用。
 
-目前正是CKB主链dApp开发的起始阶段，很多应用都需要灵活的查询live cells，例如LockHash、TypeHash、CodeHash等等查询Cells，基于这个场景，我开发了[ckb-cache-js](https://github.com/ququzone/ckb-cache-js)。考虑到很多dApp的开发技术栈是JavaScript或者TypeScript(https://www.typescriptlang.org/)，正如ckb-cache-js的命名一样，这个cache库是基于TypeScript语言开发的。
+目前正是CKB主链dApp开发的起始阶段，很多应用都需要灵活的查询live cells，例如LockHash、TypeHash、CodeHash等等查询Cells，基于这个场景，我开发了[ckb-cache-js](https://github.com/ququzone/ckb-cache-js)。考虑到很多dApp的开发技术栈是JavaScript或者 [TypeScript](https://www.typescriptlang.org/)，正如ckb-cache-js的命名一样，这个cache库是基于TypeScript语言开发的。
 
 ### ckb-cache-js 技术栈
 
