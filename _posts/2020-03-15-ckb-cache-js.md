@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ckb-cache-js 可嵌入的Live cell Cache库
+title: ckb-cache-js 可嵌入的Live Cell Cache库
 ---
 
 由于Nervos CKB的Cell模式是类似UTXO的模型，那么在组装交易时需要明确Inputs的输入，这样不管是开发钱包、dApp Server还是其他任何需要和CKB交互的应用场景，都需要一个查询live cells的功能。尽管CKB RPC已经提供了基于LockHash查询live cells的功能，这个这个功能是通用型的功能，并且只能根据LockHash查询，在很多dApp场景中无法适用。
