@@ -8,7 +8,7 @@ A simple programmer!
 
 ### More Information
 
-Java Golang Linux Node.js Docker Kubernetes BigData, Thats all.
+Java Golang Blockchain Linux Node.js Docker, Thats all.
 
 ### Contact me
 
